@@ -1,0 +1,6 @@
+@MutualFundStats_HostAddress = http://localhost:5134
+
+GET {{MutualFundStats_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
