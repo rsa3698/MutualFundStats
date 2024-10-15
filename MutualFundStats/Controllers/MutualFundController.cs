@@ -7,6 +7,7 @@ using MutualFundStats.Constants;
 
 using System;
 using MutualFundStats.Data;
+using System.ComponentModel.DataAnnotations;
 
 namespace MutualFundStats.Controllers
 {
@@ -24,7 +25,7 @@ namespace MutualFundStats.Controllers
         }
 
         [HttpPost("ReadExcelFrom_FormData")]
-        public async Task<IActionResult> ReadExcelFrom_FormData(IFormFile file, [FromQuery] DateTime month)
+        public async Task<IActionResult> ReadExcelFrom_FormData(IFormFile file, [FromQuery, Required] DateTime month)
         {
             if (file == null || file.Length == 0)
             {
