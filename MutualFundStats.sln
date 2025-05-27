@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutualFundStats", "MutualFu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelReader", "ExcelReader\ExcelReader.csproj", "{4A8912AB-160A-485C-834B-1C55F181A9B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelReader.Tests", "ExcelReader.Tests\ExcelReader.Tests.csproj", "{674E999F-72CA-425F-9778-205AABDCE816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutualFundStats.Tests", "MutualFundStats.Tests\MutualFundStats.Tests.csproj", "{79316D51-8188-4893-AF1E-109A05D0D951}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{4A8912AB-160A-485C-834B-1C55F181A9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A8912AB-160A-485C-834B-1C55F181A9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A8912AB-160A-485C-834B-1C55F181A9B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674E999F-72CA-425F-9778-205AABDCE816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674E999F-72CA-425F-9778-205AABDCE816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674E999F-72CA-425F-9778-205AABDCE816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674E999F-72CA-425F-9778-205AABDCE816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79316D51-8188-4893-AF1E-109A05D0D951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79316D51-8188-4893-AF1E-109A05D0D951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79316D51-8188-4893-AF1E-109A05D0D951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79316D51-8188-4893-AF1E-109A05D0D951}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,7 +4,7 @@ using ExcelReader.DTO;
 
 namespace ExcelReader
 {
-    public class MutualFundExcelReader
+    public class MutualFundExcelReader : IMutualFundExcelReader
     {
         public SchemeDataDTO GetSchemeData(string schemeName, Stream fileStream)
         {

@@ -15,13 +15,13 @@ namespace MutualFundStats.Controllers
     [ApiController]
     public class MutualFundController : ControllerBase
     {
-        private readonly MutualFundExcelReader _excelReader;
+        private readonly IMutualFundExcelReader _excelReader;
         private readonly MutualFundDataContext _dataContext;
 
-        public MutualFundController()
+        public MutualFundController(IMutualFundExcelReader excelReader, MutualFundDataContext dataContext)
         {
-            _excelReader = new MutualFundExcelReader();  // Instantiate ExcelReader
-            _dataContext = new MutualFundDataContext();
+            _excelReader = excelReader;
+            _dataContext = dataContext;
         }
 
         [HttpPost("ReadExcelFrom_FormData")]
